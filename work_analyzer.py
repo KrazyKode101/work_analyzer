@@ -30,7 +30,7 @@ def start_work_analyzer():
     print("login time: {}".format(get_pretty_time(login_time)))
 
     num_sessions = 0
-    session_duration_in_mins = 1
+    session_duration_in_mins = 25 
     pauseresume_actor = None
 
     while True:
